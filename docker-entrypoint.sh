@@ -49,6 +49,7 @@ if [ "$1" = 'build' ]; then
 
   echo "Mapbender build done successful without errors..."
 
+  exit
 fi
 
 exec "$@"
