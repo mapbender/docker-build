@@ -45,7 +45,7 @@ if [ "$1" = 'build' ]; then
   echo "Create artifact $PACKAGE_NAME.tar.gz"
   tar czf /out/$PACKAGE_NAME.tar.gz .
   echo "Create artifact $PACKAGE_NAME.zip"
-  zip -r /out/$PACKAGE_NAME.zip .
+  zip -r /out/$PACKAGE_NAME.zip . > /dev/null
 
   echo "Mapbender build done successful without errors..."
 
