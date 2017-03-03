@@ -4,7 +4,7 @@ MAINTAINER Arne Schubert <atd.schubert@gmail.com>
 
 RUN set -x \
   && apt-get update \
-  && DEBIAN_FRONTEND="noninteractive" apt-get install --no-install-recommends -y git php5-cli php5-curl ca-certificates zip tar bzip2 \
+  && DEBIAN_FRONTEND="noninteractive" apt-get install --no-install-recommends -y git php5-cli php5-curl php5-sqlite ca-certificates zip tar bzip2 \
   && rm -rf /var/lib/apt/lists/* \
   && mkdir -p /in \
   && mkdir -p /out \

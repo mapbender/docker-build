@@ -1,5 +1,8 @@
 # Docker image for Mapbender flavoured builds
 
+*This Image is just for building mapbender artifacts. To run mapbender in docker use
+[this image](https://github.com/mapbender/docker)...*
+
 ## How to run
 
 You have to [install docker](https://docs.docker.com/engine/installation/) first.
