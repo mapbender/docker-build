@@ -16,9 +16,9 @@ RUN set -x \
 COPY docker-entrypoint.sh /docker-entrypoint.sh
 
 ENV MAPBENDER_REPOSITORY "https://github.com/mapbender/mapbender-starter.git"
-ENV MAPBENDER_BRANCH "release/3.0.6"
+ENV MAPBENDER_BRANCH "master"
 ENV MAPBENDER_NAME "mapbender"
-ENV MAPBENDER_VERSION "3.0.6"
+ENV MAPBENDER_VERSION "master"
 ENV BUILD_NUMBER 1
 
 # bob the builder
